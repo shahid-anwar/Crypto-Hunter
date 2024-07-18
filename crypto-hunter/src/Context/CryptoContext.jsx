@@ -17,6 +17,7 @@ const CryptoContext = ({ children }) => {
     </Crypto.Provider>
   );
 };
+
 export default CryptoContext;
 
 export const CryptoState = () => {
