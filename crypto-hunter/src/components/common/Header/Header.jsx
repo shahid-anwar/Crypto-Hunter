@@ -39,9 +39,11 @@ const Header = () => {
   };
   return (
     <div className="header">
-      <h1 className="logo">
-        CryptoTracker<span style={{ color: "var(--blue)" }}>.</span>
-      </h1>
+      <Link to="/">
+        <h1 className="logo">
+          CryptoTracker<span style={{ color: "var(--blue)" }}>.</span>
+        </h1>
+      </Link>
       <div className="links">
         <Switch checked={darkMode} onClick={() => changeMode()} />
         <Link to="/">

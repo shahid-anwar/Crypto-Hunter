@@ -13,6 +13,8 @@
     font-size: 1.2rem;
     margin: 0rem;
     font-weight: 600;
+    cursor: pointer;
+    color: var(--white);
   }
   
   .links {
