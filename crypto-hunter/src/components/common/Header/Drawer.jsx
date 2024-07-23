@@ -46,7 +46,7 @@ export default function TemporaryDrawer() {
           console.log("Clicked");
         }}
       >
-        <MenuRoundedIcon />
+        <MenuRoundedIcon className="link" />
       </IconButton>
       <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
         <div className="drawer-div">
