@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 import { IconButton, Switch } from "@mui/material";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function TemporaryDrawer() {
   const [open, setOpen] = useState(false);
@@ -50,18 +51,18 @@ export default function TemporaryDrawer() {
       </IconButton>
       <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
         <div className="drawer-div">
-          <a href="/">
+          <Link to="/">
             <p className="link">Home</p>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="/compare">
             <p className="link">Compare</p>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="/watchlist">
             <p className="link">WatchList</p>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="/dashboard">
             <p className="link">Dashboard</p>
-          </a>
+          </Link>
           <Switch checked={darkMode} onClick={() => changeMode()} />
         </div>
       </Drawer>
