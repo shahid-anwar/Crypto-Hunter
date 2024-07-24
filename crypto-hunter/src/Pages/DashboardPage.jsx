@@ -26,6 +26,7 @@ const DashboardPage = () => {
     )
       .then((res) => {
         console.log("Response:", res.data);
+        setPaginatedCoins(res.data.slice(0, 10));
         setCoins(res.data);
       })
       .catch((err) => console.log(err));
