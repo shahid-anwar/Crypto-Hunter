@@ -55,3 +55,10 @@ body {
   background: var(--blue);
   border-radius: 10px;
 }
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
