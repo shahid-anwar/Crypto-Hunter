@@ -1,5 +1,4 @@
 .grid-container{
-    align-items: flex-start;
     background-color: var(--darkgrey);
     border-radius: 1rem;
     cursor: pointer;
@@ -7,6 +6,7 @@
     flex-direction: column;
     height: 300px;
     justify-content: flex-start;
+    align-items: flex-start;
     padding:1.5rem;
     width: 300px;
     border: 2px solid transparent;
