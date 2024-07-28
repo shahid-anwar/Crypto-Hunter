@@ -23,8 +23,8 @@ const List = ({ coin }) => {
         <Tooltip title="Coin Info" placement="bottom-start">
           <td className="td-info">
             <div className="info-flex">
-              <p className="coin-symbol td-p">{coin.symbol}</p>
-              <p className="coin-name td-p">{coin.name}</p>
+              <p className="coin-symbol td-p">{coin.name}</p>
+              <p className="coin-name td-p">{coin.symbol}</p>
             </div>
           </td>
         </Tooltip>

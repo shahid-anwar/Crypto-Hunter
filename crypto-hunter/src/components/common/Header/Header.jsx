@@ -41,7 +41,7 @@ const Header = () => {
     <div className="header">
       <Link to="/">
         <h1 className="logo">
-          CryptoTracker<span style={{ color: "var(--blue)" }}>.</span>
+          CryptoHunter<span style={{ color: "var(--blue)" }}>.</span>
         </h1>
       </Link>
       <div className="links">
